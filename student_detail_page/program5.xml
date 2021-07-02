@@ -1,0 +1,33 @@
+<?xml-stylesheet type="text/css" href="program5.css"?>
+<!DOCTYPE HTML>
+<html>
+<head>
+ <h1> STUDENTS DESCRIPTION </h1>
+</head>
+<students>
+ <student>
+ <USN> USN : 1JT22IS101</USN>
+ <name>Name : Rahul dravid</name>
+ <college>COLLEGE : JIT</college>
+ <branch>BRANCH : Information Science and Engineering</branch>
+ <year>YEAR : 2022</year>
+ <e-mail>E-Mail : rahuldravid@gmail.com</e-mail>
+ </student>
+ <student>
+ <USN>USN : 1JT22IS102 </USN>
+ <name>NAME : Wasim Akram </name>
+ <college>COLLEGE : JIT</college>
+ <branch>BRANCH : Information Science and Engineering</branch>
+ <year>YEAR : 2022</year>
+ <e-mail>E-Mail : wasimakram@gmail.com</e-mail>
+ </student>
+ <student>
+ <USN>USN : 1JT18IS103</USN>
+ <name>NAME : Michael Holding </name>
+ <college>COLLEGE : JIT</college>
+ <branch>BRANCH : Information Science and Engineering</branch>
+ <year>YEAR : 2022</year>
+ <e-mail>E-Mail : mholding@gmail.com</e-mail>
+ </student>
+</students>
+</html>

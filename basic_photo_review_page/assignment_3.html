@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>photo review</title>
+	<style>
+		#demo{
+			margin-left:250px;
+
+		}
+		.star{
+		    height: 17px;
+    		width: 18px;
+		}
+		p{
+			margin: 10px;
+    		font-style: italic;
+		}
+	.header{
+			color:white;
+	}
+	.headerbar {
+	  	list-style-type: none;
+	  	margin: 0;
+	  	padding: 25px;
+	  	background-color: black;
+	}
+	.footerul{
+		list-style-type: none;
+	  	margin: 0;
+	  	padding: 25px;
+
+	}
+
+	.listele {
+  		display: inline;
+
+  		padding: 25px;
+
+	}
+	img{
+		    height: 591px;
+    		width: 576px;
+	}
+	h2{
+			margin: 10px;
+	}
+</style>
+</head>
+<body style=" background: honeydew;">
+	<ul class=" headerbar">
+	  <li class ="listele"><a href="https://www.w3schools.com/" class = " header">Home</a></li>
+	  <li class ="listele"><a href="https://traveltriangle.com/blog/best-places-to-visit-in-karnataka/" class = " header">Places</a></li>
+	  <li class ="listele"><a href="https://pixabay.com/photos/road-forest-fall-autumn-season-1072823/" class = " header">Gallery</a></li>
+	  <li class ="listele"><a href="https://youtube.com"class = " header">About us</a></li>
+	  <li class ="listele"><a href="https://www.google.com/"class = " header">Search</a></li>
+	</ul>
+	<h2>
+		Murudeshwara, Uttara-kannada 
+	</h2>
+
+	<img style="vertical-align:middle;margin-left: 20px;" src="./murudeshwara_pic.jpg" alt="Murudeshwara uttara-kannada"/><span id="demo"></span>
+	
+	<p> by <a href="#" style="color:blue;">Sumanth N</a></p>
+	<p>Murudeshwara is a town in Bhatkal Taluk of Uttara Kannada district in the state of Karnataka, India. The town is located 13 km from the taluk headquarters of Bhatkal. Murudeshwara is famous for the world's second tallest Shiva statue, the town lies on the coast of the Arabian Sea and is also famous for the Murudeshwara Temple.[1] Murudeshwara has a railway station on the Mangaluru-Mumbai Konkan railway route</p>
+	<p>on:Jan 3rd 2020</p>
+	<h2> Reviews</h2><br><br>
+
+
+	<p><strong>Lovely place. I loved it!!</strong></p>
+	<h3>Munni:&nbsp;
+		<span> <img src="./star-orange.png" alt="" class = "star"/></span>
+		<span> <img src="./star-orange.png" alt="" class = "star" /></span>
+		<span> <img src="./star-orange.png" alt="" class = "star"/></span>
+		<span> <img src="./star-orange.png" alt="" class="star"/></span>
+		<span> <img src="./star-white.png" alt="" class="star" /></span>
+	</h3>
+	<hr>
+
+	<p><strong>OMG!!Totally resfreshing and peaceful place! OM NAMAH SHIVAY</strong></p>
+	<h3>padmanabh:&nbsp;
+		<span> <img src="./star-orange.png" alt="" class = "star"/></span>
+		<span> <img src="./star-orange.png" alt="" class = "star" /></span>
+		<span> <img src="./star-orange.png" alt="" class = "star"/></span>
+		<span> <img src="./star-orange.png" alt="" class="star"/></span>
+		<span> <img src="./star-orange.png" alt="" class="star" /></span>
+	</h3>
+	<hr>
+
+	<p><strong>Must visit place!! I totally recommend it!!</strong></p>
+	<h3>shankar:&nbsp;
+		<span> <img src="./star-orange.png" alt="" class = "star"/></span>
+		<span> <img src="./star-orange.png" alt="" class = "star" /></span>
+		<span> <img src="./star-orange.png" alt="" class = "star"/></span>
+		<span> <img src="./star-orange.png" alt="" class="star"/></span>
+		<span> <img src="./star-orange.png" alt="" class="star" /></span>
+	</h3>
+	<hr>
+
+	<footer>
+		<ul class="footerul">
+	  <li class="listele"><a href="https://www.w3schools.com/" class = " footer">Home</a></li>
+	  <li class="listele"><a href="https://traveltriangle.com/blog/best-places-to-visit-in-karnataka/" class = " footer">Places</a></li>
+	  <li class="listele"><a href="https://pixabay.com/photos/road-forest-fall-autumn-season-1072823/" class = " footer">Gallery</a></li>
+	  <li class="listele"><a href="https://youtube.com"class = " footer">About us</a></li>
+	</ul>
+	<p>Copyrights &#169; My photos</p>
+	<p>All rights reserved</p>
+</footer>
+
+
+<script>
+ 	var var1 = setInterval(inTimer, 500);
+ 	var fs = 5; 
+ 	var ids = document.getElementById("demo");
+ 	function inTimer()
+ 	{
+ 		ids.innerHTML = 'Om Namah Shivay';
+ 		ids.setAttribute('style', "font-size: " + fs + "px; color: red");
+ 		fs += 5;
+ 		if (fs >= 50)
+		 {
+		 	clearInterval(var1); 
+		 	var2 = setInterval(deTimer, 500);
+		 }
+ 	}
+ 	function deTimer() 
+	{
+		fs -= 5;
+		ids.innerHTML = 'Om Namah Shivay';
+		ids.setAttribute('style', "font-size: " + fs + "px; color: blue");
+	 	if (fs == 5)
+		{
+			clearInterval(var2); 
+			var1 = setInterval(inTimer, 500);
+		}
+ 	}
+ </script>
+
+
+</body>
+</html>

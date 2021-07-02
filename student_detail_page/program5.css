@@ -1,0 +1,44 @@
+html{
+	background-color:antiquewhite;
+}
+student {
+ display: block;
+ margin-top: 10px;
+ color: Red;
+}
+USN {
+ display: block;
+ margin-left: 20px;
+ font-size: 14pt;
+ color: Blue;
+}
+name {
+ display: block;
+ margin-left: 20px;
+ font-size: 14pt;
+ color: Green;
+}
+college {
+ display: block;
+ margin-left: 20px;
+ font-size: 12pt;
+ color: Maroon;
+}
+branch {
+ display: block;
+ margin-left: 20px;
+ font-size: 12pt;
+ color: Purple;
+}
+year {
+ display: block;
+ margin-left: 20px;
+ font-size: 14pt;
+ color: Pink;
+}
+e-mail {
+ display: block;
+ margin-left: 20px;
+ font-size: 12pt;
+ color: Blue;
+}
