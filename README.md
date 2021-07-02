@@ -2,8 +2,7 @@
 web programs
 
 ## Title
-
-## Description
+Simple web programs
 
 ## Techstack
 HTML, CSS, JavaScript.
